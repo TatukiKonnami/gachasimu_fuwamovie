@@ -24,7 +24,6 @@ def turn_10rare():
     result = []
 
     weight = [0.943, 0.051, 0.006]
-    # 9 回抽選する
     for v in range(0, 9):
         count= count+1
         v = pickup_rare(weight)
